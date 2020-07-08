@@ -1,5 +1,8 @@
 module Psychometrics
+    using Statistics
+    using LinearAlgebra
 
-# Write your package code here.
+    include("reliability.jl")
 
+    export cronalpha
 end
